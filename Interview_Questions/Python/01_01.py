@@ -29,6 +29,7 @@ print(isUnique("aa"))   # False
 
 # Part 2 - No additional data structures
 # Concept - Brute force checking all characters against all others
+# Big O - Speed O(n^2) / Memory O(n)
 def isUnique2(string):
     # Iterate through all characters
     for i in range(len(string) - 1):
